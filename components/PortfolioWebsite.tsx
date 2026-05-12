@@ -3,7 +3,7 @@
 import React from 'react';
 
 export default function PortfolioWebsite() {
-  const [expanded, setExpanded] = React.useState(null);
+ const [expanded, setExpanded] = useState<number | null>(null);
   const experiences = [
     {
       role: 'Global Digital Fundraising Consultant',
